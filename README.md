@@ -1,14 +1,18 @@
-# CUD Accreditation Repository — GitHub Demo
+# CUD Accreditation Repository — Interactive GitHub Demo
 
-Static management demonstration suitable for GitHub Pages. It contains no database, passwords, confidential files, or server-side PHP.
+Static management demonstration for GitHub Pages.
+
+## Features
+- 32 dummy programs and multiple accreditation records
+- Working Dashboard, Programs, Accreditations, Documents, Renewal Alerts, Reports tabs
+- Search and accreditation filters
+- 90-day validity logic
+- Add-record demo (browser session only)
+- Dummy document downloads
+- Management report with Print / Save PDF
+- CSV export
+
+> All data and validity dates in this demo are illustrative and are not official Canadian University Dubai accreditation records.
 
 ## Publish
-1. Create a new GitHub repository.
-2. Upload `index.html` and `README.md` to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then Save.
-
-The live Pages URL will appear in GitHub after deployment.
-
-> The upload/download/database/email-reminder functions are visual demonstrations here. Use the XAMPP/PHP/MySQL package for functional local deployment.
+Upload `index.html` and this README to a GitHub repository, then enable **Settings → Pages → Deploy from a branch → main / root**.
